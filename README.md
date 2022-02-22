@@ -7,24 +7,33 @@
 
 
 # Стек технологий
-![Java](readmeImages/Java.png)
-![Gradle](readmeImages/Gradle.png)
-![JUnit5](readmeImages/JUnit5.png)
-![Selenide](readmeImages/Selenide.png)
-![RestAssured](readmeImages/RestAssured.png)
-![Jenkins](readmeImages/Jenkins.png)
 
-![AllureReport](readmeImages/AllureReport.png)
-![AllureTestOps](readmeImages/AllureTestOps.png)
-![Github](readmeImages/Github.png)
-![Selenoid](readmeImages/Selenoid.png)
-![Jira](readmeImages/Jira.png)
-![Telegram](readmeImages/Telegram.png)
+<p align="center">
+<img width="6%" title="IntelliJ IDEA" src="E:\jprojects\wikipedia_mobile_tests\readmeImages\logo\Intelij_IDEA.svg">
+<img width="6%" title="Java" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Java.svg">
+<img width="6%" title="Selenide" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Allure_Report.svg">
+<img width="6%" title="Gradle" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/JUnit5.svg">
+<img width="6%" title="GitHub" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Jenkins.svg">
+<img width="6%" title="Allure TestOps" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Allure_TestOps.svg">
+<img width="6%" title="Appium" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Appium.svg">
+<img width="6%" title="BrowserStack" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Browserstack.svg">
+<img width="6%" title="Telegram" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Telegram.svg">
+<img width="6%" title="Jira" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Jira.svg">
+</p>
 
+Автотесты написаны на <code>Java</code> с использованием фреймворков <code>Selenide</code> и <code>Appium</code>.
+<code>BrowserStack</code> выполняет запуск приложения на удаленном мобильном Android-устройстве.
+<code>Selenoid</code> выполняет запуск приложения на удаленном сервере в контейнерах <code>Docker</code>.
+Для автоматизированной сборки проекта используется <code>Gradle</code>.
+<code>Jenkins</code> выполняет запуск тестов. <code>Allure Report</code> формирует отчет о запуске тестов.
+Автотесты интегрируются с тест-менеджмент системой <code>Allure TestOps</code> и таск-трекер системой <code>Jira</code>.
+После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>.
 
-## Для запусков автотестов используется Jenkins.
-
-##### Пример готовой сборки можно посмотреть [по ссылке](https://jenkins.autotests.cloud/job/09-Julia_Zvereva-lesson23/)
+##### Пример готовой сборки Jenkins можно посмотреть [по ссылке](https://jenkins.autotests.cloud/job/009-JuliaZvereva-Lesson23mob/)
 
 ### Параметры запуска в Jenkins
 ![Jenkins_params](readmeImages/Jenkins_params.png)
@@ -42,30 +51,11 @@
 ![Testops](readmeImages/Allure_testops_cases.png)
 
 ### Прохождение тестов в Allure TestOps
-![Testops](readmeImages/Testops_launch.png)
+![Testops](readmeImages/Testops_cases1.png)
 
 ### Уведомления о прохождении автотестов в Telegram
-![Telegram](readmeImages/book24_telegram_report.png)
+![Telegram](readmeImages/wiki_telegram_report.png)
 
 ### Интеграция тестов c таск-трекер системой Jira
 ![Telegram](readmeImages/jira_issue.png)
 
-### Видео о прохождении тестов
-![video](readmeImages/video.gif)
-
-### Команда для локального запуска
-```
-gradle clean test
-```
-
-### Команда для удаленного запуска
-```bash
-clean
-test
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--Dthreads=${THREADS}
--DremoteDriverUrl=${REMOTE_DRIVER_URL}
--DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
-```
