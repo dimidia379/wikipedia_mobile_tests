@@ -9,20 +9,20 @@
 # Стек технологий
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="E:\jprojects\wikipedia_mobile_tests\readmeImages\logo\Intelij_IDEA.svg">
-<img width="6%" title="Java" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Java.svg">
-<img width="6%" title="Selenide" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Jenkins.svg">
-<img width="6%" title="Allure TestOps" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Allure_TestOps.svg">
-<img width="6%" title="Appium" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Appium.svg">
-<img width="6%" title="BrowserStack" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Browserstack.svg">
-<img width="6%" title="Telegram" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Telegram.svg">
-<img width="6%" title="Jira" src="E:\jprojects\wikipedia_mobile_tests\readmeImages/logo/Jira.svg">
+<img width="6%" title="IntelliJ IDEA" src="readmeImages/logo/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="readmeImages/logo/Java.svg">
+<img width="6%" title="Selenide" src="readmeImages/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="readmeImages/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="readmeImages/logo/Allure_Report.svg">
+<img width="6%" title="Gradle" src="readmeImages/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="readmeImages/logo/JUnit5.svg">
+<img width="6%" title="GitHub" src="readmeImages/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="readmeImages/logo/Jenkins.svg">
+<img width="6%" title="Allure TestOps" src="readmeImages/logo/Allure_TestOps.svg">
+<img width="6%" title="Appium" src="readmeImages/logo/Appium.svg">
+<img width="6%" title="BrowserStack" src="readmeImages/logo/Browserstack.svg">
+<img width="6%" title="Telegram" src="readmeImages/logo/Telegram.svg">
+<img width="6%" title="Jira" src="readmeImages/logo/Jira.svg">
 </p>
 
 Автотесты написаны на <code>Java</code> с использованием фреймворков <code>Selenide</code> и <code>Appium</code>.
